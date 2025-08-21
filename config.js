@@ -8,14 +8,14 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
 
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~4QpiwbDZ#cvoTJJdCCJ9NBzrkCW2Ez3L6d8jgpXo4CmveEVPRwlY",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2348077444541",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || "Sïměøn Åį",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -42,7 +42,7 @@ module.exports = {
     ANTI_BOT: process.env.ANTI_BOT || "true",
     //antibot true or false
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
-    ANTI_CALL: process.env.ANTI_CALL || "true",
+    ANTI_CALL: process.env.ANTI_CALL || "false",
 
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
@@ -51,13 +51,13 @@ module.exports = {
 // make anti link true,false for groups 
     ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
     
-    ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
+    ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
     
      ANTILINK: process.env.ANTILINK || "false",
     
     ANTI_VV: process.env.ANTI_VV || "false",  
     // Block view-once messages?
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",  
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",  
     // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
     // Log deleted messages (or 'inbox' to resend)
@@ -70,7 +70,7 @@ module.exports = {
     // Show bot as always online?
     AUTO_BIO: process.env.AUTO_BIO || "false",
     
-    WELCOME: process.env.WELCOME || "false",
+    WELCOME: process.env.WELCOME || "true",
 
     GOODBYE: process.env.GOODBYE || "true",
    
